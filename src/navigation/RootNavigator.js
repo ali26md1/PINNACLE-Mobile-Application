@@ -102,11 +102,7 @@ export default function RootNavigator() {
 
   if (loading) return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: '#fff' }}>
-      <Image source={require('../assets/logo.png')} style={{ width: 220, height: 80, marginBottom: 32 }} resizeMode="contain" />
       <ActivityIndicator size="large" color={COLORS.primary} />
-      <Text style={{ color: COLORS.textMuted, marginTop: 16, fontSize: 12, fontWeight: '700', letterSpacing: 2 }}>
-        GET FUTURE READY
-      </Text>
     </View>
   );
 

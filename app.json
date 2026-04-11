@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "PinnacleEdu",
-    "slug": "pinnacle",
+    "slug": "pinnacle-edu",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,8 +21,7 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.pinnacle.edu"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -30,11 +29,6 @@
     "newArchEnabled": false,
     "plugins": [
       "expo-router"
-    ],
-    "extra": {
-      "eas": {
-        "projectId": "cb766032-34df-49d1-b677-7c0e24c03814"
-      }
-    }
+    ]
   }
 }
